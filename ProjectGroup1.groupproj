@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{21734BFB-E65F-4703-923A-9691643171B5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MuchCopy.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MuchCopy">
+        <MSBuild Projects="MuchCopy.dproj"/>
+    </Target>
+    <Target Name="MuchCopy:Clean">
+        <MSBuild Projects="MuchCopy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MuchCopy:Make">
+        <MSBuild Projects="MuchCopy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MuchCopy"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MuchCopy:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MuchCopy:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

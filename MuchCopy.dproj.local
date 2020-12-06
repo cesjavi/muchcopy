@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2020/06/15 02:17:21.000.130,C:\sistemas\MuchCopy\MuchCopy.dproj=C:\sistemas\MuchCopy\TabbedApplication.dproj</Transaction>
+    <Transaction>2020/06/15 04:38:16.000.904,=C:\sistemas\MuchCopy\Source\FB4D.Authentication.pas</Transaction>
+    <Transaction>2020/06/15 04:38:16.000.988,=C:\sistemas\MuchCopy\Source\FB4D.Configuration.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.240,=C:\sistemas\MuchCopy\Source\FB4D.Functions.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.961,=C:\sistemas\MuchCopy\Source\FB4D.Storage.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.791,=C:\sistemas\MuchCopy\Source\FB4D.Request.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.155,=C:\sistemas\MuchCopy\Source\FB4D.Firestore.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.874,=C:\sistemas\MuchCopy\Source\FB4D.Response.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.717,=C:\sistemas\MuchCopy\Source\FB4D.RealTimeDB.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.635,=C:\sistemas\MuchCopy\Source\FB4D.OAuth.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.080,=C:\sistemas\MuchCopy\Source\FB4D.Document.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.577,=C:\sistemas\MuchCopy\Source\FB4D.Interfaces.pas</Transaction>
+    <Transaction>2020/06/15 04:38:17.000.494,=C:\sistemas\MuchCopy\Source\FB4D.Helpers.pas</Transaction>
+    <Transaction>2020/06/15 04:48:02.000.976,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Context.pas</Transaction>
+    <Transaction>2020/06/15 04:48:02.000.863,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Builder.pas</Transaction>
+    <Transaction>2020/06/15 04:48:02.000.938,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Consumer.Validators.pas</Transaction>
+    <Transaction>2020/06/15 04:48:02.000.900,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Consumer.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.341,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWE.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.257,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWA.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.299,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWA.Signing.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.463,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWT.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.118,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWA.Compression.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.214,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWA.Factory.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.080,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.Builder.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.158,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWA.Encryption.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.506,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.Parts.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.380,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWK.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.042,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.Base.pas</Transaction>
+    <Transaction>2020/06/15 04:48:03.000.420,=C:\sistemas\MuchCopy\Source\JOSE\JOSE.Core.JWS.pas</Transaction>
+    <Transaction>2020/06/15 04:48:21.000.517,=C:\sistemas\MuchCopy\Source\Common\JOSE.Types.Arrays.pas</Transaction>
+    <Transaction>2020/06/15 04:48:21.000.639,=C:\sistemas\MuchCopy\Source\Common\JOSE.Types.JSON.pas</Transaction>
+    <Transaction>2020/06/15 04:48:21.000.300,=C:\sistemas\MuchCopy\Source\Common\JOSE.Encoding.Base64.pas</Transaction>
+    <Transaction>2020/06/15 04:48:21.000.344,=C:\sistemas\MuchCopy\Source\Common\JOSE.Hashing.HMAC.pas</Transaction>
+    <Transaction>2020/06/15 04:48:21.000.573,=C:\sistemas\MuchCopy\Source\Common\JOSE.Types.Bytes.pas</Transaction>
+    <Transaction>2020/06/15 04:48:21.000.451,=C:\sistemas\MuchCopy\Source\Common\JOSE.Signing.RSA.pas</Transaction>
+    <Transaction>2020/07/11 02:45:42.000.995,=C:\sistemas\MuchCopy\Unit1.pas</Transaction>
+    <Transaction>2020/07/11 02:46:19.000.304,C:\sistemas\MuchCopy\Umcopy.pas=C:\sistemas\MuchCopy\Unit1.pas</Transaction>
+    <Transaction>2020/07/31 00:29:35.000.435,=F:\sistemas\MuchCopy\Unit1.pas</Transaction>
+    <Transaction>2020/07/31 00:29:48.000.319,F:\sistemas\MuchCopy\Unit1.pas=F:\sistemas\MuchCopy\XmlSerial.pas</Transaction>
+    <Transaction>2020/07/31 00:34:58.000.758,F:\sistemas\MuchCopy\XmlSerial.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

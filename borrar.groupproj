@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{22A990E3-A88B-46A1-B85B-8B282C4C0069}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MuchCopy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\SimpleListView\SimpleListView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewCustomBottomDetail\SampleListViewCustomBottomDetailProject.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MuchCopy">
+        <MSBuild Projects="MuchCopy.dproj"/>
+    </Target>
+    <Target Name="MuchCopy:Clean">
+        <MSBuild Projects="MuchCopy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MuchCopy:Make">
+        <MSBuild Projects="MuchCopy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SimpleListView">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\SimpleListView\SimpleListView.dproj"/>
+    </Target>
+    <Target Name="SimpleListView:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\SimpleListView\SimpleListView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SimpleListView:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\SimpleListView\SimpleListView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleListViewCustomBottomDetailProject">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewCustomBottomDetail\SampleListViewCustomBottomDetailProject.dproj"/>
+    </Target>
+    <Target Name="SampleListViewCustomBottomDetailProject:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewCustomBottomDetail\SampleListViewCustomBottomDetailProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleListViewCustomBottomDetailProject:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewCustomBottomDetail\SampleListViewCustomBottomDetailProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MuchCopy;SimpleListView;SampleListViewCustomBottomDetailProject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MuchCopy:Clean;SimpleListView:Clean;SampleListViewCustomBottomDetailProject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MuchCopy:Make;SimpleListView:Make;SampleListViewCustomBottomDetailProject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

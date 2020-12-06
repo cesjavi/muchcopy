@@ -1,0 +1,32 @@
+unit Umcopy;
+
+interface
+
+type
+  TCopyType = (Bitmap, Text);
+  TCopy = class
+    private
+      FDate: TDateTime;
+      FDescription: AnsiString;
+      FValue: AnsiString;
+      FCopyType: TCopyType;
+    public
+      property Date: TDateTime read FDate write FDate;
+      property Description: AnsiString read FDescription write FDescription;
+      property Value: AnsiString read FValue write FValue;
+      property CopyType: TCopyType read FCopyType write FCopyType;
+      constructor Create();
+      //constructor Create(date: TDateTime; description: AnsiString; value: AnsiString; copytype: TCopyType);
+  end;
+
+implementation
+
+  constructor TCopy.Create(date: TDateTime; description: AnsiString; value: AnsiString; copytype: TCopyType);
+  begin
+      //Date := date;
+      //Description := description;
+      //Value := Value;
+      //CopyType := copytype;
+  end;
+
+end.
